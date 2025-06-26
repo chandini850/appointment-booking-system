@@ -115,8 +115,8 @@ json{
       "createdAt": "2024-01-15T10:10:00.000Z",
       "user": {
         "id": "550e8400-e29b-41d4-a716-446655440000",
-        "name": "John Doe",
-        "email": "john.doe@example.com"
+        "name": "Chandini",
+        "email": "chandini@example.com"
       },
       "service": {
         "id": "660e8400-e29b-41d4-a716-446655440001",
@@ -142,8 +142,8 @@ json{
   "createdAt": "2024-01-15T10:10:00.000Z",
   "user": {
     "id": "550e8400-e29b-41d4-a716-446655440000",
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "Chandini",
+    "email": "chandini@example.com"
   },
   "service": {
     "id": "660e8400-e29b-41d4-a716-446655440001",
@@ -163,8 +163,8 @@ json{
   "createdAt": "2024-01-15T10:10:00.000Z",
   "user": {
     "id": "550e8400-e29b-41d4-a716-446655440000",
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "Chandini",
+    "email": "chandini@example.com"
   },
   "service": {
     "id": "660e8400-e29b-41d4-a716-446655440001",
@@ -233,7 +233,7 @@ status (ENUM: 'booked', 'cancelled', 'completed')
 createdAt (TIMESTAMP)
 
 Features Implemented
-✅ Core Requirements:
+Core Requirements:
 
 User registration and listing
 Service creation and listing
@@ -244,7 +244,7 @@ Environment configuration with .env
 TypeScript and NestJS framework
 PostgreSQL with TypeORM
 
-✅ Bonus Features:
+Bonus Features:
 
 Swagger API documentation
 Pagination for appointment listing
