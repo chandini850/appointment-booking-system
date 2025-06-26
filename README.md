@@ -29,14 +29,14 @@ Once the application is running, you can access:
 curl -X POST http://localhost:3000/users \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "Chandini",
+    "email": "chandini@example.com"
   }'
 Response:
 json{
   "id": "550e8400-e29b-41d4-a716-446655440000",
-  "name": "John Doe",
-  "email": "john.doe@example.com",
+  "name": "Chandini",
+  "email": "chandini@example.com",
   "createdAt": "2024-01-15T10:00:00.000Z"
 }
 Get All Users
@@ -45,8 +45,8 @@ Response:
 json[
   {
     "id": "550e8400-e29b-41d4-a716-446655440000",
-    "name": "John Doe",
-    "email": "john.doe@example.com",
+    "name": "Chandini",
+    "email": "chandini@example.com",
     "createdAt": "2024-01-15T10:00:00.000Z"
   }
 ]
